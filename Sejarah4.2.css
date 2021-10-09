@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+body {
+  animation-name: body;
+  animation-duration: 21s;
+  animation-iteration-count: infinite;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+}
+h1{
+  background: azure;
+  padding: 20px;
+  font-weight: bold;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 12%;
+  margin-right: auto;
+  z-index: 999;
+  width: 1400px;
+  opacity: 80%;
+  box-shadow: 8px 20px 3px rgb(0,0,0,0.85)
+}
+.H{
+  margin-top: 30%;
+  margin-left: 13%;
+  margin-right: auto;
+  padding: 18px;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  width: 1350px;
+  background: Linear-gradient(90deg, magenta, cornflowerblue);
+  opacity: 85%;
+  box-shadow: 8px 20px 3px rgb(0,0,0,0.85);
+  animation-name: rgb;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  border-width: 10px;
+  border-style:ridge;
+}
+.multi{
+  background: gray;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 900;
+  font-size: 35px;
+  padding: 8px;
+  margin-left: 3%;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+  width: 400px;
+  text-align: center;
+}
+.isi{
+  background: lavender;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 900;
+  font-size: 30px;
+  padding: 5px;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+  width: 900px;
+  text-align: left;
+}
+.box{
+  background: darkorange;
+  border-radius: 13px;
+  border-color: slategrey;
+  border-style: solid;
+  border-width: 10px;
+  margin-left: 150px;
+  margin-top: 80px;
+  width: 975px;
+  box-shadow: 8px 20px 2px rgba(0,0,0,0.75);
+  opacity: 70%;
+}
+.box2{
+    background: lightskyblue;
+    border-radius: 10px;
+    border-color: lightslategray;
+    border-style: solid;
+    border-width: 10px;
+    margin-left: 13%;
+    margin-top: 80px;
+    width: 1350px;
+    box-shadow: 8px 20px 2px rgba(0,0,0,0.75);
+    opacity: 70%;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 38px;
+    font-weight: bold;
+}
+#b{
+  width: 800px;
+}
+.last{
+    font-size: 45px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-bottom: 15%;
+    background: lightseagreen;
+    animation-name: last;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    box-shadow: 8px 15px 3px rgba(0,0,0,0.75);
+    width: 650px;
+}
+.box:hover{
+     animation-name: box;
+     animation-duration: 800ms;
+     animation-fill-mode: forwards;
+}
+.box2:hover{
+    animation-name: box2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes body{
+    0%{
+        background: bisque;
+        background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    }
+    20%{
+        background: blueviolet;
+        background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    }
+    40%{
+        background: darkgreen;
+        background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    }
+    60%{
+        background: darkgrey;
+        background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    }
+    80%{
+        background: darkred;
+        background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    }
+    100%{
+        background:bisque;
+        background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    }
+}
+@keyframes box{
+  0%{
+    border-color: slategrey;
+    background: darkorange;
+  }
+  100%{
+    border-color: deeppink;
+    background: aquamarine;
+    transform: scale(1.3);
+    opacity: 100%;
+}
+}
+@keyframes box2{
+    0% {
+        background: lightskyblue;
+        border-color: slategrey;
+    }
+    100%{
+        background: mediumorchid;
+        border-color: springgreen;
+        transform: scale(1.35);
+        opacity: 100%;
+    }
+}
+@keyframes rgb{
+    0%{
+        border-color: blue;
+    }
+    40%{
+        border-color: green;
+    }
+    70%{
+        border-color: red;
+    }
+    100%{
+        border-color: blue;
+    }
+}
+@keyframes last{
+      0%{
+          background: lightseagreen;
+          transform: scale(0.4);
+          opacity: 5%;
+      }
+      50%{
+          background: magenta;
+          transform: scale(2);
+          opacity: 100%;
+      }
+      100%{
+        background: lightseagreen;
+        transform: scale(0.4);
+        opacity: 5%;
+    }
+}
