@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+body {
+  animation-name: body;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+  background-attachment: fixed;
+}
+h1{
+  background: azure;
+  padding: 20px;
+  font-weight: bold;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 12%;
+  margin-right: auto;
+  z-index: 999;
+  width: 1400px;
+  opacity: 80%;
+  box-shadow: 8px 20px 3px rgb(0,0,0,0.85);
+  cursor: default;
+}
+.H{
+  margin-top: 30%;
+  margin-left: 13%;
+  margin-right: auto;
+  padding: 18px;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  width: 1350px;
+  background: Linear-gradient(90deg, magenta, cornflowerblue);
+  opacity: 85%;
+  box-shadow: 8px 20px 3px rgb(0,0,0,0.85);
+  animation-name: rgb;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  border-width: 10px;
+  border-style:ridge;
+  cursor: default;
+}
+.multi{
+  background: gray;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 900;
+  font-size: 35px;
+  padding: 8px;
+  margin-left: 3%;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+  width: 400px;
+  text-align: center;
+  cursor: default;
+}
+.isi{
+  background: lavender;
+  font-family: 'Architects Daughter', cursive;
+  font-weight: 900;
+  font-size: 30px;
+  padding: 5px;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: solid;
+  width: 900px;
+  text-align: left;
+  cursor: default;
+  transition: 1s;
+}
+.isi:hover{
+    box-shadow: inset 920px 0px 1px rgb(47, 73, 73);
+    border-color: black;
+    color: rgb(224, 202, 164);
+}
+.box{
+  background: darkorange;
+  border-radius: 13px;
+  border-color: slategrey;
+  border-style: solid;
+  border-width: 10px;
+  margin-left: 150px;
+  margin-top: 80px;
+  width: 975px;
+  box-shadow: 8px 20px 2px rgba(0,0,0,0.75);
+  opacity: 70%;
+  transition: 1s;
+  cursor: default;
+}
+.box2{
+    background: lightskyblue;
+    border-radius: 10px;
+    border-color: lightslategray;
+    border-style: solid;
+    border-width: 10px;
+    margin-left: 13%;
+    margin-top: 80px;
+    width: 1350px;
+    box-shadow: 8px 20px 2px rgba(0,0,0,0.75);
+    opacity: 70%;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 38px;
+    font-weight: bold;
+    cursor: default;
+    transition: 1s;
+}
+#b{
+  width: 800px;
+}
+.last{
+    font-size: 45px;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bolder;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-bottom: 15%;
+    background: lightseagreen;
+    animation-name: last;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    box-shadow: 8px 15px 3px rgba(0,0,0,0.75);
+    width: 650px;
+    cursor: default;
+}
+.box:hover{
+    border-color: deeppink;
+    background: aquamarine;
+    transform: scale(1.3);
+    opacity: 100%;
+    cursor: default;
+    margin-left: 20%;
+}
+.box2:hover{
+    background: mediumorchid;
+    border-color: springgreen;
+    transform: scale(1.35);
+    opacity: 100%;
+    cursor: default;
+}
+@keyframes body{
+    0%{
+        background-color: rgb(43, 38, 32);
+    }
+    20%{
+        background-color: rgb(51, 15, 85);
+    }
+    40%{
+        background-color: rgb(0, 68, 0);
+    }
+    60%{
+        background-color: rgb(54, 54, 54);
+    }
+    80%{
+        background-color: rgb(58, 0, 0);
+    }
+    100%{
+        background-color:rgb(43, 38, 32);
+    }
+}
+@keyframes rgb{
+    0%{
+        border-color: blue;
+    }
+    40%{
+        border-color: green;
+    }
+    70%{
+        border-color: red;
+    }
+    100%{
+        border-color: blue;
+    }
+}
+@keyframes last{
+      0%{
+          background: lightseagreen;
+          transform: scale(0.4);
+          opacity: 5%;
+      }
+      50%{
+          background: magenta;
+          transform: scale(2);
+          opacity: 100%;
+      }
+      100%{
+        background: lightseagreen;
+        transform: scale(0.4);
+        opacity: 5%;
+    }
+}
